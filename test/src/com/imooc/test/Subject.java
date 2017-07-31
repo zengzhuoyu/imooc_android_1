@@ -5,7 +5,7 @@ public class Subject {
 	private String subjectName;
 	private String subjectNo;
 	private int subjectLife;
-	private Student[] myStudents;//类数组
+	private Student[] myStudents;//对象数组
 	private int studentNum;
 	
 	// 无参构造方法
@@ -77,7 +77,7 @@ public class Subject {
 		//1、将学生保存到数组中
 		for(int i=0;i<this.getMyStudents().length;i++){
 			if(this.getMyStudents()[i]==null){//此位置还没有学生存储进来
-//				stu.setStudentSubject(this);//可以没必要
+				stu.setStudentSubject(this);
 				this.getMyStudents()[i]=stu;
 				//2、将学生个数保存到studentNum
 				this.studentNum=i+1;

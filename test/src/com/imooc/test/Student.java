@@ -12,14 +12,23 @@ public class Student {
 	public Student() {
 
 	}
-	// 多参构造方法，实现对全部属性的赋值
-	public Student(String studentNo, String studentName, String studentSex, int studentAge,Subject studentSubject) {
+	
+	//多参构造方法，实现对学号、姓名、性别、年龄的赋值
+	public Student(String studentNo, String studentName, String studentSex, int studentAge) {
 		this.setStudentNo(studentNo);
 		this.setStudentName(studentName);
 		this.setStudentSex(studentSex);
 		this.setStudentAge(studentAge);
-		this.setStudentSubject(studentSubject);
-	}
+	}	
+	
+//	// 多参构造方法，实现对全部属性的赋值
+//	public Student(String studentNo, String studentName, String studentSex, int studentAge,Subject studentSubject) {
+//		this.setStudentNo(studentNo);
+//		this.setStudentName(studentName);
+//		this.setStudentSex(studentSex);
+//		this.setStudentAge(studentAge);
+//		this.setStudentSubject(studentSubject);
+//	}
 	
 	public String getStudentNo() {
 		return studentNo;
