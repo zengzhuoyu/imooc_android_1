@@ -1,0 +1,13 @@
+package com.imooc.test;
+
+public class TestDemo {
+
+	public static void main(String[] args) {
+		double[] a = new double[5];
+		for(double value:a) {
+			System.out.println(value);	
+		}
+
+	}
+
+}

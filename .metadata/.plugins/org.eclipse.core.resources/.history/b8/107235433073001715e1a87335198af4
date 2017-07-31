@@ -1,0 +1,15 @@
+package com.imooc;
+
+public class testDemo {
+
+	public static void main(String[] args) {
+		
+		char c = 'c';
+		int i = 10;
+		String s = "Hello";
+		
+		i += s;
+
+	}
+
+}

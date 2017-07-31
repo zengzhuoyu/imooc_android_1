@@ -1,0 +1,16 @@
+package com.imooc.test;
+
+public class Code {
+	   //创建外部类Code构造块（构造块）
+	{
+		System.out.print("Code的构造块");
+	}
+
+	   //创建外部类Code静态代码块（静态代码块）
+	{
+		System.out.print("Code的静态代码块");
+	}
+
+
+	   //创建外部类Code构造方法（构造方法）
+}

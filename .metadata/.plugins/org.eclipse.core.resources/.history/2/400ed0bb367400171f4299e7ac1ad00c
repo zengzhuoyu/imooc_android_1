@@ -1,0 +1,24 @@
+package com.imooc.test;
+
+public class UserManager {
+    // 用户信息验证的方法
+    public String checkUser(User one, User two) {//
+    	
+    	if(one.getUserName() == null || two.getUserName() == null) {
+    		return "用户名不能为空";
+    	}
+    	
+    	if(one.getPassWord() == null || two.getPassWord() == null) {
+    		return "密码不能为空";
+    	}
+    	
+       // 判断用户名是否为空，是否一致
+        if(one.getUserName() == two.getUserName()) {
+        	return "用户名一致";
+        }else {
+        	return "用户名不一致";
+        }
+       // 判断密码是否为空，是否一致
+
+    }
+}

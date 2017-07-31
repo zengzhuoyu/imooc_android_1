@@ -1,0 +1,14 @@
+package com.imooc.test;
+
+public class TestDemo {
+
+	public static void main(String[] args) {
+		int[] a;
+		for(int value:a) {
+			System.out.println(a);	
+		}
+
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.imooc;
+
+public class testDemo {
+
+	public static void main(String[] args) {
+
+		char[] ch = {'a','A','c','d'};
+		
+		for(char n:ch) {
+			
+			
+		}
+	}
+
+}

@@ -1,0 +1,47 @@
+package com.imooc.object;
+
+public class FengZhuang {
+	
+	private String name;
+	private int month;
+	private double weight;
+	private String species;
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		
+		return "我叫"+this.name;
+	}
+
+	public int getMonth() {
+		return month;
+	}
+
+	public void setMonth(int month) {
+		if(month <= 0) {
+			System.out.println("输入错误,年龄必须大于0");
+		}
+		this.month = month;
+	}
+
+	public double getWeight() {
+		return weight;
+	}
+
+	public void setWeight(double weight) {
+		this.weight = weight;
+	}
+
+	public String getSpecies() {
+		return species;
+	}
+
+	public void setSpecies(String species) {
+		this.species = species;
+	}
+	
+	
+}

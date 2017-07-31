@@ -1,0 +1,12 @@
+package com.imooc;
+
+public class testDemo {
+
+	public static void main(String[] args) {
+		
+		int x = 100,a = 10,b = 20,v1 = 5,v2 = 0;
+		if(a<b) 
+
+	}
+
+}

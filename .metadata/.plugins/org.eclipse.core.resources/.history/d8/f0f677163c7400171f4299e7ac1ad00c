@@ -1,0 +1,21 @@
+package com.imooc.test;
+
+public class Book {
+	  //私有属性：书名、作者、出版社、价格
+    	private String title;
+    	private String auther;
+    	private String push;
+    	private double price;
+    	
+	  //通过构造方法实现属性赋值
+
+	    /*通过公有的get/set方法实现属性的访问，其中：
+	    1、限定图书价格必须大于10，如果无效需进行提示，并强制赋值为10
+	    2、限定作者、书名均为只读属性
+	    */
+    	public Book(String title,String auther,String push,double price) {
+
+    	}
+    	
+	  //信息介绍方法，描述图书所有信息
+}

@@ -1,0 +1,16 @@
+package com.imooc.test;
+
+public class MonkeyTest {
+
+	public static void main(String[] args) {
+	      //调用无参构造方法实例对象
+	      Monkey monkey1 = new Monkey();
+	      //打印输出对象属性
+	      System.out.println("我是使用无参构造产生的猴子：");
+	      //调用带参构造方法实例对象
+	      
+	      //打印输出对象属性
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.imooc.object;
+
+public class FengZhuangTest {
+
+	public static void main(String[] args) {
+		
+		FengZhuang one = new FengZhuang();
+		
+//		one.setName("·²·²");
+		one.setName("·²·²");
+		
+//		System.out.println(one.getName());
+		System.out.println(one.getName());
+		
+	}
+
+}

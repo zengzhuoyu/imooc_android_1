@@ -1,0 +1,17 @@
+package com.imooc;
+
+public class testDemo {
+
+	public static void main(String[] args) {
+
+		int[] a = {14,54,75,87,34};
+		int[] b;
+		for(int n:a) {
+			if(n % 3 == 0) {
+				
+			}
+		}
+		System.out.println(count);
+	}
+
+}
