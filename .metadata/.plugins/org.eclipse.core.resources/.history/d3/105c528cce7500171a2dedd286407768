@@ -1,0 +1,13 @@
+package zuoye;
+
+public class Staff {
+	private String staffName;
+	private String staffNo;
+	private int age;
+	private char sex;
+	private Department staffDepartment;
+	private Duty staffDuty;
+	
+	
+	
+}

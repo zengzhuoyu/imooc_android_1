@@ -74,12 +74,15 @@ public class Subject {
 		 * 1、将学生保存到数组中
 		 * 2、将学生个数保存到studentNum
 		 * */
-		//1、将学生保存到数组中
+		//1、将该学生保存到数组中
 		for(int i=0;i<this.getMyStudents().length;i++){
 			if(this.getMyStudents()[i]==null){//此位置还没有学生存储进来
+				
+				//解决专业和学生的双向关联
 				stu.setStudentSubject(this);
 				this.getMyStudents()[i]=stu;
-				//2、将学生个数保存到studentNum
+				
+				//2、将该学生个数保存到studentNum
 				this.studentNum=i+1;
 				return;
 			}
