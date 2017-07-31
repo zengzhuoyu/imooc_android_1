@@ -7,7 +7,7 @@ public class StudentTest {
 		Subject sub1 = new Subject("计算机科学与应用","J0001",4);
 
 		Student stu1 = new Student("S01","张三","男",200,sub1);
-		System.out.println(stu1.introduction());
+//		System.out.println(stu1.introduction());
 		Student stu2 = new Student("S02","李四","女",200,sub1);
 		Student stu3 = new Student("S03","王五","男",200,sub1);
 		
