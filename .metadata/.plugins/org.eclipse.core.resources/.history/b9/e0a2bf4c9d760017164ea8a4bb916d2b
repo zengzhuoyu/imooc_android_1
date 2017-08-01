@@ -1,0 +1,6 @@
+package com.imooc.test;
+
+public class Cat extends Animal {
+
+	public int temp = 300;
+}

@@ -36,6 +36,7 @@ public class Department {
 			
 		return staffs;
 	}
+	
 	public void setStaffs(Staff[] staffs) {
 		this.staffs = staffs;
 	}

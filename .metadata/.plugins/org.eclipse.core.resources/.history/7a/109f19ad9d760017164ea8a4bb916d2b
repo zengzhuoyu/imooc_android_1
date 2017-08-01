@@ -1,0 +1,14 @@
+package com.imooc.test;
+
+public class Animal {
+	
+	public int temp = 15;
+	
+	static {
+		System.out.println("¸¸ÀàµÄ¾²Ì¬´úÂë¿é");
+	}
+	
+	public Animal() {}
+	
+	
+}
