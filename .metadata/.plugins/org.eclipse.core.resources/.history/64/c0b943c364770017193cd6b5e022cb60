@@ -1,0 +1,12 @@
+package com.imooc.test;
+
+public class Test6 {
+
+	public static void main(String[] args) {
+	       //实例化对象，传入属性值（李明, 男,18）
+		
+	       //打印输出对象信息
+
+	}
+
+}

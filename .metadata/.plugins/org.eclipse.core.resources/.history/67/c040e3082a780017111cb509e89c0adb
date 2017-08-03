@@ -1,0 +1,14 @@
+package com.imooc.test;
+
+public class Danli {
+
+	private static Danli instance = new Danli();
+	
+	private Danli() {}
+	
+
+	
+	public static Danli getInstance() {
+		return instance;
+	}
+}

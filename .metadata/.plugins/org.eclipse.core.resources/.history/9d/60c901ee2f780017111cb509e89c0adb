@@ -1,0 +1,19 @@
+package com.imooc.test;
+/**
+ * 懒汉式
+ * @author Administrator
+ *
+ */
+public class Danli2 {
+
+	private static Danli instance = null;
+	
+	//达成目的：只能有一个实例
+	private Danli2() {}
+	
+	//达成目的：3.自行向整个系统提供这个实例
+	public static Danli2 getInstance() {
+		//静态方法中不能用this
+		return instance;
+	}
+}

@@ -1,0 +1,14 @@
+package com.imooc.test;
+
+public class Danli {
+
+	//static:无论实例化多少对象
+	private static Danli instance = new Danli();
+	
+	private Danli() {}
+	
+	public static Danli getInstance() {
+		//静态方法中不能用this
+		return instance;
+	}
+}

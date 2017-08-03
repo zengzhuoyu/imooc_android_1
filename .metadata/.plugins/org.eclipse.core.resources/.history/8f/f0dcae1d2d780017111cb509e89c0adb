@@ -1,0 +1,14 @@
+package com.imooc.test;
+
+public class Danli {
+
+	//static:该属性在类加载的时候就生成了，只生成一个该属性的引用地址
+	private static Danli instance = new Danli();
+	
+	private Danli() {}
+	
+	public static Danli getInstance() {
+		//静态方法中不能用this
+		return instance;
+	}
+}

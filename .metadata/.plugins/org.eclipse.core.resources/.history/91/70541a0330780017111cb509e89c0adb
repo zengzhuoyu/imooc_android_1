@@ -1,0 +1,22 @@
+package com.imooc.test;
+/**
+ * ¿¡∫∫ Ω
+ * @author Administrator
+ *
+ */
+public class Danli2 {
+
+	private static Danli instance = null;
+	
+	private Danli2() {}
+	
+	public static Danli2 getInstance() {
+		
+		if(instance == null) {
+			
+		}
+		
+		return instance;
+	}
+	
+}

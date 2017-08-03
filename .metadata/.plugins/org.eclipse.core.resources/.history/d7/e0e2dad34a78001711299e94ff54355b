@@ -1,0 +1,9 @@
+package com.imooc.test;
+
+public class Emperor {
+    //定义私有构造方法
+
+	 //定义私有静态类对象
+
+	 //定义公有静态方法返回类内的私有静态对象
+}

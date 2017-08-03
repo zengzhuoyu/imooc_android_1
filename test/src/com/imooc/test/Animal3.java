@@ -1,0 +1,21 @@
+package com.imooc.test;
+
+public class Animal3 {
+	public String name;
+	public int month;
+	
+	public Animal3() {
+		
+	}
+	
+	public void eat() {
+		System.out.println(this.name+"ÔÚ³Ô¶«Î÷");
+	}
+	
+	public void help(final Animal3 temp) {
+//		temp=new Animal();
+		temp.name="Å£Å£";
+		temp.eat();
+}
+
+}
