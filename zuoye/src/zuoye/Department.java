@@ -1,5 +1,6 @@
 package zuoye;
 
+//╡©це
 public class Department {
 	private String departmentNo;
 	private String departmentName;

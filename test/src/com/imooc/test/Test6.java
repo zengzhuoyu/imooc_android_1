@@ -3,9 +3,9 @@ package com.imooc.test;
 public class Test6 {
 
 	public static void main(String[] args) {
-	       //ÊµÀı»¯¶ÔÏó£¬´«ÈëÊôĞÔÖµ£¨ÀîÃ÷, ÄĞ,18£©
-			Person2 one = new Person2("ÀîÃ÷",18,'ÄĞ');
-	       //´òÓ¡Êä³ö¶ÔÏóĞÅÏ¢
+	       //å®ä¾‹åŒ–å¯¹è±¡ï¼Œä¼ å…¥å±æ€§å€¼ï¼ˆææ˜, ç”·,18ï¼‰
+			Person2 one = new Person2("ææ˜",18,'ç”·');
+	       //æ‰“å°è¾“å‡ºå¯¹è±¡ä¿¡æ¯
 			System.out.println(one);
 			System.out.println(one.toString());
 	}

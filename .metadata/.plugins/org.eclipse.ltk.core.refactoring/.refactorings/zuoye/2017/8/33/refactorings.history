@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;zuoye.IACT&apos; to &apos;IAct&apos;&#x0D;&#x0A;- Original project: &apos;zuoye&apos;&#x0D;&#x0A;- Original element: &apos;zuoye.IACT&apos;&#x0D;&#x0A;- Renamed element: &apos;zuoye.IAct&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;IACT&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;zuoye{IACT.java[IACT" matchStrategy="1" name="IAct" qualified="false" references="true" similarDeclarations="false" stamp="1502627667522" textual="false" version="1.0"/>
+</session>

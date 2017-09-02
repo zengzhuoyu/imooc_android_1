@@ -1,5 +1,6 @@
 package zuoye;
 
+//Ô±¹¤
 public class Staff {
 	private String staffName;
 	private String staffNo;

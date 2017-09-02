@@ -1,0 +1,21 @@
+package com.imooc.test;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class FileCopy {
+
+	public static void main(String[] args) {
+		
+		try {
+			FileInputStream fis = new FileInputStream("e.gif");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+
+	}
+
+}

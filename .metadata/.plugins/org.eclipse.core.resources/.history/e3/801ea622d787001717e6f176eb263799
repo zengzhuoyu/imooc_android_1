@@ -1,0 +1,15 @@
+package com.imooc.test;
+
+import java.io.FileInputStream;
+
+public class FileCopy {
+
+	public static void main(String[] args) {
+		
+		FileInputStream fis = new FileInputStream("e.gif");
+		
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.imooc.test;
+
+import java.io.FileOutputStream;
+
+public class F {
+
+	public static void main(String[] args) {
+		
+		FileOutputStream fo
+
+	}
+
+}

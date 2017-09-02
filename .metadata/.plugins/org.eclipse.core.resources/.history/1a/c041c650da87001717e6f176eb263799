@@ -1,0 +1,13 @@
+package com.imooc.test;
+
+import java.io.FileInputStream;
+
+public class Reader {
+
+	public static void main(String[] args) {
+		
+		FileInputStream fis = new FileInputStream("imooc.tetx");
+
+	}
+
+}

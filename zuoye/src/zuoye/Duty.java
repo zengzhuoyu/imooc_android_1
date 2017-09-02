@@ -1,5 +1,6 @@
 package zuoye;
 
+//Ö°Îñ
 public class Duty {
 	private String dutyNo;
 	private String dutyName;

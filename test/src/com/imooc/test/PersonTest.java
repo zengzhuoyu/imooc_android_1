@@ -3,17 +3,17 @@ package com.imooc.test;
 public class PersonTest {
 
 	public static void main(String[] args) {
-	      //Ê¹ÓÃnew¹Ø¼ü×ÖÊµÀı»¯¶ÔÏó
+	      //ä½¿ç”¨newå…³é”®å­—å®ä¾‹åŒ–å¯¹è±¡
 			Person one = new Person();
 			
-	      //´«Èëname¡¢age¡¢gradeµÄ²ÎÊıÖµ
-			one.name = "ÀîÃ÷";
+	      //ä¼ å…¥nameã€ageã€gradeçš„å‚æ•°å€¼
+			one.name = "ææ˜";
 			one.age = 10;
-			one.grade = 'Îå';
+			one.grade = 'äº”';
 			
-	      //·Ö±ğµ÷ÓÃstudent¡¢sex¡¢mySelf·½·¨
+	      //åˆ†åˆ«è°ƒç”¨studentã€sexã€mySelfæ–¹æ³•
 			one.student();
-			one.sex('Å®');
+			one.sex('å¥³');
 			one.mySelf();
 	}
 

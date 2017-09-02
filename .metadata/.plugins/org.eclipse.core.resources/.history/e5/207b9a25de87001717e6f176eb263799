@@ -1,0 +1,15 @@
+package com.imooc.test;
+
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+
+public class ReaderWriter {
+
+	public static void main(String[] args) {
+		
+		FileInputStream fis = new FileInputStream("imooc.txt");
+		InputStreamReader isr = new InputStreamReader(fis)
+
+	}
+
+}

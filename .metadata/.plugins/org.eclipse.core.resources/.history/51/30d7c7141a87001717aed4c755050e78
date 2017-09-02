@@ -1,0 +1,31 @@
+package com.imooc.test;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class FileInput {
+
+	public static void main(String[] args) {
+		
+		FileInputStream fis;
+		try {
+			
+			fis = new FileInputStream("imooc.txt");
+			
+//			int n = fis.read();
+//			System.out.println((char)n);
+			
+			fis.close();
+			
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		
+
+	}
+
+}

@@ -1,8 +1,0 @@
-package com.imooc.test;
-
-public class Animal2 {
-
-	public Animal2(){
-		
-	}
-}

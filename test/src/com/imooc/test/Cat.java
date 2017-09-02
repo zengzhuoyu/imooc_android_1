@@ -6,20 +6,20 @@ public class Cat extends Animal {
 	public int temp;
 	
 	static {
-		System.out.println("×ÓÀàµÄ¾²Ì¬´úÂë¿é");
+		System.out.println("å­ç±»çš„é™æ€ä»£ç å—");
 	}
 	
 	{
-		System.out.println("×ÓÀàµÄ¹¹Ôì´úÂë¿é");
+		System.out.println("å­ç±»çš„æ„é€ ä»£ç å—");
 	}
 	
 	public Cat() {
-		System.out.println("×ÓÀàµÄÎŞ²Î¹¹Ôì·½·¨");
+		System.out.println("å­ç±»çš„æ— å‚æ„é€ æ–¹æ³•");
 	}
 	
 	public Cat(int temp) {
-//		super(temp);//×ÓÀàµÄ¹¹Ôìº¯Êı×ÔÖ÷Ñ¡Ôñµ÷ÓÃ¸¸ÀàµÄÄÄÒ»¸ö¹¹Ôìº¯Êı
-		System.out.println("×ÓÀàµÄÓĞ²Î¹¹Ôì·½·¨");
+//		super(temp);//å­ç±»çš„æ„é€ å‡½æ•°è‡ªä¸»é€‰æ‹©è°ƒç”¨çˆ¶ç±»çš„å“ªä¸€ä¸ªæ„é€ å‡½æ•°
+		System.out.println("å­ç±»çš„æœ‰å‚æ„é€ æ–¹æ³•");
 	}		
 	
 }
